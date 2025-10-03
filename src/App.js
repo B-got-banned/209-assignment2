@@ -2,12 +2,13 @@ import React from 'react'
 import About from './components/about'
 import Pricing from './components/pricing'
 import Products from './components/products'
+import Banner from './components/banner'
 
 
 const App = () => {
   return (
     <div>
-      <h1>B-got-banned</h1>
+      <Banner/>
       <About/>
       <Products/>
       <Pricing/>
